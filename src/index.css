@@ -51,9 +51,9 @@ button:hover {
     color: white;
     border-color: #0597a6;
 }
-button:focus,
-button:focus-visible {
-    outline: 4px auto -webkit-focus-ring-color;
+
+button:active {
+    transform: scale(0.97);
 }
 
 @media (prefers-color-scheme: light) {
